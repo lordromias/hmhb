@@ -3,6 +3,7 @@ In order to make sure it all works, please follow the steps below:
 1) In your phpMyAdmin/SQL server admin, run the following SQL code in your SQL tab:
 
 ----------- COPY BELOW -----------
+
 CREATE TABLE `hb_mb` (
   `mb_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `mb_code` varchar(32) NOT NULL DEFAULT '',
@@ -18,6 +19,7 @@ CREATE TABLE `hb_mb` (
   `mb_ban` varchar(1) NOT NULL,
   PRIMARY KEY (mb_id)
 ) ENGINE = MyISAM DEFAULT CHARSET = latin1;
+
 ----------- COPY ABOVE -----------
 
 2) Upload the files.
