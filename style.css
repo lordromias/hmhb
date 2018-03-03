@@ -1,0 +1,206 @@
+html{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.LoginHolder {
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    color: rgb(66, 66, 77);
+}
+
+.whitebox{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    margin-top: 40px;
+
+    padding-top: 40px;
+
+    box-shadow: 1px 3px 0px rgba(0, 0, 0, 0.13);
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.whitebox img {
+
+        border: 1px solid #95989A;
+        border-right-style: none;
+        border-top-style: none;
+        border-bottom-style: none;
+
+        height: 33px;
+        width: 33px;
+            
+        padding-top: 28px;    
+        padding-bottom: 28px; 
+        padding-left: 14px;
+        padding-right: 0px;
+    
+        position: relative;
+        top: 36px;
+        left: -76px;
+
+        pointer-events: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+.formlinks {
+    width: 550px;
+    margin: 0 auto;
+    position: relative;
+    text-shadow: 1px 1px #000;
+}
+
+.login {
+    width: 550px;
+}
+
+.register {
+    width: 550px;
+}
+
+input[type="text"], input[type="password"] {
+
+    height: 87px;
+    width: 273px;
+
+    border-radius: 44px;
+    border: 1px solid #95989A;
+
+    padding-left: 40px;
+    padding-right: 106px;
+
+    margin-left: 50px;
+
+    font-family: "Segoe UI";
+    font-size: 20px;
+
+    color: #777C80;
+
+    box-shadow: 1px 3px 0px rgba(0, 0, 0, 0.13);
+
+    transition-duration: 1s;
+}
+
+input[type="text"]:hover, input[type="password"]:hover, input[type="text"]:focus, input[type="password"]:focus {
+    width: 280px;
+    transition-duration: 1s;
+    border: 1px solid rgb(108, 115, 119);
+    outline: none;
+    box-shadow: 3px 10px 0px rgba(0, 0, 0, 0.13);
+}
+
+input[type="button"]:hover {
+    width: 80px;
+    height: 80px;
+    transition-duration: 1s;
+    outline: none;
+    background-color: rgb(229, 170, 140);
+    box-shadow: 3px 10px 0px rgba(0, 0, 0, 0.13);
+}
+
+input[type="button"]:active {
+    width: 75px;
+    height: 75px;
+    transition-duration: 0.1s;
+    outline: none;
+    background-color: rgb(218, 116, 65);
+    box-shadow: 2px 7px 0px rgba(0, 0, 0, 0.13);
+}
+
+input[type="button"] {
+    width: 74px;
+    height: 74px;
+
+    border-radius: 37px;
+    border: 0px;
+
+    background-color: #E99163;
+    background-image: url("next.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+
+    box-shadow: 1px 3px 0px rgba(0, 0, 0, 0.13);
+
+    transition-duration: 1s;
+    outline: none;
+    position: absolute;
+    margin-top:-37px;
+    margin-left:-37px;
+}
+
+br {
+    line-height: 0%;
+}
+
+.Account {
+    margin-left: 50px;
+    text-align: left;
+    position: relative;
+    top: 6px;
+}
+
+
+.loginLink {
+    margin-left: 100px;
+    text-align: left;
+    position: relative;
+    top: 6px;
+}
+
+.Password {
+    margin-right: 50px;
+    margin-left: 340px;
+    width:150px;
+    text-align: right;
+    position: relative;
+    top: -20px;
+
+}
+
+a {
+    font-size: 20px;
+    font-family: "Segoe UI";
+    color: #DFDFDF;
+    text-decoration: none;
+}
+
+::-ms-reveal {
+    display: none;
+}
+
+.spacer {
+    clear:both;
+    height: 74px;
+}
